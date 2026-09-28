@@ -4,7 +4,7 @@
 #print(type(a))
 #a="Pepe"
 #print(type(a))
-
+'''
 lista1= [1,2,3]
 
 lista2= [1,2,3]
@@ -27,3 +27,9 @@ print("Lista 3: ", lista3)
 saludo= "Hola mundo"
 
 print("Hola" in saludo)
+'''
+
+# Lectura por teclado
+number= int(input("Introduce un número entero: "))
+
+print("Número introducido: ", number)
