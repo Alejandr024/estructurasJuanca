@@ -1,3 +1,4 @@
+import random
 '''
 lista =["manzana", "pera", "platano", "limon", "fresa"]
 
@@ -59,5 +60,25 @@ print(squares)
 '''
 
 #Forma ListComprehension
+'''
 squares = [number ** 2 for number in range (1, 6) ]
 print(squares)
+'''
+
+#Triangulo
+'''
+for i in range (1,6):
+    for j in range (i):
+        number= random.randint(0,9)
+        if number%2 ==0:
+            number="p"
+        print(f"{number} \t", end="")
+    print("\n")
+'''
+# while
+'''
+counter =1
+while counter<=5:
+    print(counter)
+    counter+=1
+'''
