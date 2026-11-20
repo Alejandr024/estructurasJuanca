@@ -1,0 +1,4 @@
+40
+error_de_sistema
+60
+12.5
